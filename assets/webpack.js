@@ -25,11 +25,11 @@ module.exports = {
   mode: 'production',
   entry: {
     "epub-app": './js/entry/epub.js',
-    "epub-elixir": './less/entry/epub-elixir.css',
-    "epub-erlang": './less/entry/epub-erlang.css',
+    "epub-elixir": './css/entry/epub-elixir.css',
+    "epub-erlang": './css/entry/epub-erlang.css',
     "html-app": './js/entry/html.js',
-    "html-elixir": './less/entry/html-elixir.css',
-    "html-erlang": './less/entry/html-erlang.css',
+    "html-elixir": './css/entry/html-elixir.css',
+    "html-erlang": './css/entry/html-erlang.css',
   },
   output: {
     path: resolve(__dirname, '../formatters'),
