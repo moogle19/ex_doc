@@ -1,112 +1,112 @@
-blockquote.warning a,
-blockquote.error a,
-blockquote.info a,
-blockquote.neutral a,
-blockquote.tip a {
+body.dark .content-inner blockquote.warning a,
+body.dark .content-inner blockquote.error a,
+body.dark .content-inner blockquote.info a,
+body.dark .content-inner blockquote.neutral a,
+body.dark .content-inner blockquote.tip a {
   color: var(--black);
   text-decoration: underline;
   text-decoration-skip-ink: auto;
 }
-blockquote.warning a:visited,
-blockquote.error a:visited,
-blockquote.info a:visited,
-blockquote.neutral a:visited,
-blockquote.tip a:visited {
+body.dark .content-inner blockquote.warning a:visited,
+body.dark .content-inner blockquote.error a:visited,
+body.dark .content-inner blockquote.info a:visited,
+body.dark .content-inner blockquote.neutral a:visited,
+body.dark .content-inner blockquote.tip a:visited {
   color: var(--black);
 }
-blockquote.warning code,
-blockquote.error code,
-blockquote.info code,
-blockquote.neutral code,
-blockquote.tip code {
+body.dark .content-inner blockquote.warning code,
+body.dark .content-inner blockquote.error code,
+body.dark .content-inner blockquote.info code,
+body.dark .content-inner blockquote.neutral code,
+body.dark .content-inner blockquote.tip code {
   background-color: var(--code-background);
   border: 1px solid var(--code-background-darken-10);
 }
-blockquote.warning {
+body.dark .content-inner blockquote.warning {
   background-color: #edd5a5;
 }
-blockquote.error {
+body.dark .content-inner blockquote.error {
   background-color: #e4aaac;
 }
-blockquote.info {
+body.dark .content-inner blockquote.info {
   background-color: #a4b8e8;
 }
-blockquote.neutral {
+body.dark .content-inner blockquote.neutral {
   background-color: #c6cddb;
 }
-blockquote.tip {
+body.dark .content-inner blockquote.tip {
   background-color: #9dc5aa;
 }
-blockquote h3.warning::before,
-blockquote h3.error::before,
-blockquote h3.info::before,
-blockquote h3.neutral::before,
-blockquote h3.tip::before,
-blockquote h4.warning::before,
-blockquote h4.error::before,
-blockquote h4.info::before,
-blockquote h4.neutral::before,
-blockquote h4.tip::before {
+body.dark .content-inner blockquote h3.warning::before,
+body.dark .content-inner blockquote h3.error::before,
+body.dark .content-inner blockquote h3.info::before,
+body.dark .content-inner blockquote h3.neutral::before,
+body.dark .content-inner blockquote h3.tip::before,
+body.dark .content-inner blockquote h4.warning::before,
+body.dark .content-inner blockquote h4.error::before,
+body.dark .content-inner blockquote h4.info::before,
+body.dark .content-inner blockquote h4.neutral::before,
+body.dark .content-inner blockquote h4.tip::before {
   color: var(--white);
 }
-blockquote h3.warning.warning,
-blockquote h3.error.warning,
-blockquote h3.info.warning,
-blockquote h3.neutral.warning,
-blockquote h3.tip.warning,
-blockquote h4.warning.warning,
-blockquote h4.error.warning,
-blockquote h4.info.warning,
-blockquote h4.neutral.warning,
-blockquote h4.tip.warning {
+body.dark .content-inner blockquote h3.warning.warning,
+body.dark .content-inner blockquote h3.error.warning,
+body.dark .content-inner blockquote h3.info.warning,
+body.dark .content-inner blockquote h3.neutral.warning,
+body.dark .content-inner blockquote h3.tip.warning,
+body.dark .content-inner blockquote h4.warning.warning,
+body.dark .content-inner blockquote h4.error.warning,
+body.dark .content-inner blockquote h4.info.warning,
+body.dark .content-inner blockquote h4.neutral.warning,
+body.dark .content-inner blockquote h4.tip.warning {
   color: var(--white);
   background-color: #7c4619;
 }
-blockquote h3.warning.error,
-blockquote h3.error.error,
-blockquote h3.info.error,
-blockquote h3.neutral.error,
-blockquote h3.tip.error,
-blockquote h4.warning.error,
-blockquote h4.error.error,
-blockquote h4.info.error,
-blockquote h4.neutral.error,
-blockquote h4.tip.error {
+body.dark .content-inner blockquote h3.warning.error,
+body.dark .content-inner blockquote h3.error.error,
+body.dark .content-inner blockquote h3.info.error,
+body.dark .content-inner blockquote h3.neutral.error,
+body.dark .content-inner blockquote h3.tip.error,
+body.dark .content-inner blockquote h4.warning.error,
+body.dark .content-inner blockquote h4.error.error,
+body.dark .content-inner blockquote h4.info.error,
+body.dark .content-inner blockquote h4.neutral.error,
+body.dark .content-inner blockquote h4.tip.error {
   background-color: #882738;
 }
-blockquote h3.warning.info,
-blockquote h3.error.info,
-blockquote h3.info.info,
-blockquote h3.neutral.info,
-blockquote h3.tip.info,
-blockquote h4.warning.info,
-blockquote h4.error.info,
-blockquote h4.info.info,
-blockquote h4.neutral.info,
-blockquote h4.tip.info {
+body.dark .content-inner blockquote h3.warning.info,
+body.dark .content-inner blockquote h3.error.info,
+body.dark .content-inner blockquote h3.info.info,
+body.dark .content-inner blockquote h3.neutral.info,
+body.dark .content-inner blockquote h3.tip.info,
+body.dark .content-inner blockquote h4.warning.info,
+body.dark .content-inner blockquote h4.error.info,
+body.dark .content-inner blockquote h4.info.info,
+body.dark .content-inner blockquote h4.neutral.info,
+body.dark .content-inner blockquote h4.tip.info {
   background-color: #1b176b;
 }
-blockquote h3.warning.neutral,
-blockquote h3.error.neutral,
-blockquote h3.info.neutral,
-blockquote h3.neutral.neutral,
-blockquote h3.tip.neutral,
-blockquote h4.warning.neutral,
-blockquote h4.error.neutral,
-blockquote h4.info.neutral,
-blockquote h4.neutral.neutral,
-blockquote h4.tip.neutral {
+body.dark .content-inner blockquote h3.warning.neutral,
+body.dark .content-inner blockquote h3.error.neutral,
+body.dark .content-inner blockquote h3.info.neutral,
+body.dark .content-inner blockquote h3.neutral.neutral,
+body.dark .content-inner blockquote h3.tip.neutral,
+body.dark .content-inner blockquote h4.warning.neutral,
+body.dark .content-inner blockquote h4.error.neutral,
+body.dark .content-inner blockquote h4.info.neutral,
+body.dark .content-inner blockquote h4.neutral.neutral,
+body.dark .content-inner blockquote h4.tip.neutral {
   background-color: #1f2432;
 }
-blockquote h3.warning.tip,
-blockquote h3.error.tip,
-blockquote h3.info.tip,
-blockquote h3.neutral.tip,
-blockquote h3.tip.tip,
-blockquote h4.warning.tip,
-blockquote h4.error.tip,
-blockquote h4.info.tip,
-blockquote h4.neutral.tip,
-blockquote h4.tip.tip {
+body.dark .content-inner blockquote h3.warning.tip,
+body.dark .content-inner blockquote h3.error.tip,
+body.dark .content-inner blockquote h3.info.tip,
+body.dark .content-inner blockquote h3.neutral.tip,
+body.dark .content-inner blockquote h3.tip.tip,
+body.dark .content-inner blockquote h4.warning.tip,
+body.dark .content-inner blockquote h4.error.tip,
+body.dark .content-inner blockquote h4.info.tip,
+body.dark .content-inner blockquote h4.neutral.tip,
+body.dark .content-inner blockquote h4.tip.tip {
   background-color: #1f4034;
 }

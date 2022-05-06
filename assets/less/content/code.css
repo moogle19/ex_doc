@@ -1,22 +1,22 @@
-a.no-underline,
-pre a {
+.content-inner a.no-underline,
+.content-inner pre a {
   color: var(--main-darken-10);
   text-shadow: none;
   text-decoration: none;
   background-image: none;
 }
-a.no-underline:visited,
-pre a:visited,
-a.no-underline:active,
-pre a:active,
-a.no-underline:focus,
-pre a:focus,
-a.no-underline:hover,
-pre a:hover {
+.content-inner a.no-underline:visited,
+.content-inner pre a:visited,
+.content-inner a.no-underline:active,
+.content-inner pre a:active,
+.content-inner a.no-underline:focus,
+.content-inner pre a:focus,
+.content-inner a.no-underline:hover,
+.content-inner pre a:hover {
   color: var(--main-darken-20);
   text-decoration: none;
 }
-code {
+.content-inner code {
   background-color: var(--code-background);
   vertical-align: baseline;
   border-radius: 2px;
@@ -24,10 +24,10 @@ code {
   border: 1px solid var(--code-background-darken-10);
   text-transform: none;
 }
-pre {
+.content-inner pre {
   margin: var(--base-line-height) 0;
 }
-pre code {
+.content-inner pre code {
   display: block;
   overflow-x: auto;
   white-space: inherit;

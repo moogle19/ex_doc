@@ -6,13 +6,13 @@
     background-color: var(--yellow);
   }
 }
-.detail:target .detail-header {
+.content-inner .detail:target .detail-header {
   animation-duration: 0.55s;
   animation-name: blink-background;
   animation-iteration-count: 1;
   animation-timing-function: ease-in-out;
 }
-.detail-header {
+.content-inner .detail-header {
   margin: 2em 0 1em;
   padding: 0.5em 1em;
   background: var(--detail-gray);
@@ -21,20 +21,20 @@
   font-family: var(--mono-font-family);
   position: relative;
 }
-.detail-header .note {
+.content-inner .detail-header .note {
   float: right;
 }
-.detail-header .signature {
+.content-inner .detail-header .signature {
   display: inline-block;
   font-family: var(--mono-font-family);
   font-size: 1rem;
   font-weight: 700;
 }
-.detail-header:hover a.detail-link {
+.content-inner .detail-header:hover a.detail-link {
   opacity: 1;
   text-decoration: none;
 }
-.detail-header a.detail-link {
+.content-inner .detail-header a.detail-link {
   transition: opacity 0.3s ease-in-out;
   position: absolute;
   top: 0;
@@ -47,7 +47,7 @@
   text-decoration: none;
   border: none;
 }
-.specs pre {
+.content-inner .specs pre {
   font-family: var(--mono-font-family);
   font-size: 0.9em;
   font-style: normal;
@@ -56,31 +56,31 @@
   margin: 0;
   padding: 0;
 }
-.specs .attribute {
+.content-inner .specs .attribute {
   color: var(--medium-gray);
 }
-.docstring {
+.content-inner .docstring {
   margin: 1.2em 0 3em 1.2em;
 }
-.docstring h2,
-.docstring h3,
-.docstring h4,
-.docstring h5 {
+.content-inner .docstring h2,
+.content-inner .docstring h3,
+.content-inner .docstring h4,
+.content-inner .docstring h5 {
   font-weight: 700;
 }
-.docstring h2 {
+.content-inner .docstring h2 {
   font-size: 1.1em;
 }
-.docstring h3 {
+.content-inner .docstring h3 {
   font-size: 1em;
 }
-.docstring h4 {
+.content-inner .docstring h4 {
   font-size: 0.95em;
 }
-.docstring h5 {
+.content-inner .docstring h5 {
   font-size: 0.9em;
 }
-div.deprecated {
+.content-inner div.deprecated {
   display: block;
   padding: 9px 15px;
   background-color: var(--deprecated);

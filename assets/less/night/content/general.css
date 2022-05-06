@@ -1,39 +1,39 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body.dark .content-inner h1,
+body.dark .content-inner h2,
+body.dark .content-inner h3,
+body.dark .content-inner h4,
+body.dark .content-inner h5,
+body.dark .content-inner h6 {
   color: var(--night-text-headers);
 }
-a {
+body.dark .content-inner a {
   text-decoration: none;
   color: var(--night-text-headers);
   text-decoration: underline;
   text-decoration-skip-ink: auto;
 }
-a:visited {
+body.dark .content-inner a:visited {
   color: var(--night-text-headers);
 }
-a.view-source {
+body.dark .content-inner a.view-source {
   color: #939393;
   text-decoration: none;
 }
-a.view-source:hover {
+body.dark .content-inner a.view-source:hover {
   color: var(--white);
 }
-.settings {
+body.dark .content-inner .settings {
   color: #939393;
 }
-.settings:hover {
+body.dark .content-inner .settings:hover {
   color: var(--white);
 }
-.note {
+body.dark .content-inner .note {
   color: #939393;
 }
-.summary h2 a {
+body.dark .content-inner .summary h2 a {
   text-decoration: none;
 }
-img[src*="#gh-light-mode-only"] {
+body.dark .content-inner img[src*="#gh-light-mode-only"] {
   display: none;
 }

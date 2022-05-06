@@ -1,11 +1,12 @@
+@import 'content/general.css';
+@import 'content/admonition.css';
+@import 'content/summary.css';
+@import 'content/functions.css';
+@import 'content/code.css';
+@import 'content/footer.css';
+@import 'content/bottom-actions.css';
+
 .content-inner {
-  @import 'content/general.css';
-  @import 'content/admonition.css';
-  @import 'content/summary.css';
-  @import 'content/functions.css';
-  @import 'content/code.css';
-  @import 'content/footer.css';
-  @import 'content/bottom-actions.css';
   font-family: var(--serif-font-family);
   font-size: 1em;
   line-height: 1.6875em;
