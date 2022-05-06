@@ -1,3 +1,30 @@
+@import '~normalize.css/normalize.css';
+@import 'mixins.css';
+@import 'icons.css';
+@import 'layout.css';
+@import 'sidebar.css';
+@import 'content.css';
+@import 'search.css';
+@import 'modal.css';
+@import 'keyboard-shortcuts.css';
+@import 'quick-switch.css';
+@import 'autocomplete.css';
+@import 'tooltips.css';
+@import 'copy-button.css';
+@import 'settings.css';
+@import 'toast.css';
+@import 'night/night.css';
+@import 'night/content.css';
+@import 'night/copy-button.css';
+@import 'night/search.css';
+@import 'night/sidebar.css';
+@import 'night/quick-switch.css';
+@import 'night/keyboard-shortcuts.css';
+@import 'night/tooltips.css';
+@import 'night/toast.css';
+@import 'screen-reader.css';
+@import 'print.css';
+@import 'makeup.css';
 @font-face {
   font-family: 'Inconsolata';
   font-style: normal;
@@ -36,3 +63,4 @@
   font-weight: 300;
   src: url(https://fonts.gstatic.com/s/merriweather/v30/u-4n0qyriQwlOrhSvowK_l521wRZWMf_.ttf) format('truetype');
 }
+

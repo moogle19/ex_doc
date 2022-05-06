@@ -1,0 +1,35 @@
+.footer {
+  margin: 4em auto 1em;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  color: var(--medium-gray);
+}
+.footer .line {
+  display: inline-block;
+}
+.footer .footer-button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+  font-style: italic;
+  outline: none;
+  padding: 0 4px;
+  color: var(--medium-gray);
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+.footer .footer-button:visited {
+  color: var(--medium-gray);
+}
+.footer .footer-hex-package {
+  margin-right: 4px;
+}
+.footer a {
+  color: var(--medium-gray);
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+.footer a:visited {
+  color: var(--medium-gray);
+}

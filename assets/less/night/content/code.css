@@ -1,0 +1,15 @@
+code {
+  background-color: var(--night-code-background);
+  border-color: var(--night-code-background-lighten-10);
+}
+pre code {
+  background-color: var(--night-code-background);
+}
+pre a,
+pre a:visited {
+  color: var(--white);
+  text-decoration: none;
+}
+pre a:hover {
+  color: var(--main);
+}

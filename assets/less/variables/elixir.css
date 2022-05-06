@@ -1,0 +1,8 @@
+@import 'common.css';
+:root {
+  --main: #8E7CE6;
+  --main-darken-20: #4528d4;
+  --main-darken-10: #6951de;
+  --dark-gray: #0D1829;
+  --dark-gray-alpha-0: #0D182900;
+}

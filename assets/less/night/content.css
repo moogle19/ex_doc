@@ -1,0 +1,10 @@
+body.dark .content-inner {
+  @import 'content/general.css';
+  @import 'content/admonition.css';
+  @import 'content/functions.css';
+  @import 'content/code.css';
+  @import 'content/footer.css';
+  @import 'content/bottom-actions.css';
+  background: var(--night-background);
+  color: var(--night-text-body);
+}

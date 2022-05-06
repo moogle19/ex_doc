@@ -1,0 +1,18 @@
+body.dark #keyboard-shortcuts-modal {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+body.dark #keyboard-shortcuts-modal .modal-contents {
+  background-color: var(--night-background);
+  color: var(--night-text-body);
+}
+body.dark #keyboard-shortcuts-modal .modal-contents dl.shortcut-row {
+  border-bottom: 1px solid var(--night-code-border);
+}
+body.dark #keyboard-shortcuts-modal .modal-contents dl.shortcut-row:last-of-type {
+  border-bottom-style: none;
+}
+body.dark #keyboard-shortcuts-modal .modal-contents kbd > kbd {
+  color: var(--night-text-body);
+  background-color: var(--night-code-background);
+  border: 1px solid var(--night-code-border);
+}

@@ -1,0 +1,4 @@
+body.dark .sidebar-closed .sidebar-button,
+body.dark .sidebar-button {
+  color: var(--lightest-gray);
+}

@@ -12,7 +12,7 @@
     "lint": "npx eslint \"./js/**/*.js\"",
     "lint:fix": "npx eslint --fix \"./js/**/*.js\"",
     "test": "npx karma start ./karma.conf.js --single-run",
-    "build": "webpack --config ./webpack.js"
+    "build": "webpack --log-level=debug --config ./webpack.js"
   },
   "repository": {
     "type": "git",

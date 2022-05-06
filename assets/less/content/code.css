@@ -1,0 +1,36 @@
+a.no-underline,
+pre a {
+  color: var(--main-darken-10);
+  text-shadow: none;
+  text-decoration: none;
+  background-image: none;
+}
+a.no-underline:visited,
+pre a:visited,
+a.no-underline:active,
+pre a:active,
+a.no-underline:focus,
+pre a:focus,
+a.no-underline:hover,
+pre a:hover {
+  color: var(--main-darken-20);
+  text-decoration: none;
+}
+code {
+  background-color: var(--code-background);
+  vertical-align: baseline;
+  border-radius: 2px;
+  padding: 0.1em 0.2em;
+  border: 1px solid var(--code-background-darken-10);
+  text-transform: none;
+}
+pre {
+  margin: var(--base-line-height) 0;
+}
+pre code {
+  display: block;
+  overflow-x: auto;
+  white-space: inherit;
+  padding: 0.5em 1em;
+  background-color: var(--code-background);
+}

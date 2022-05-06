@@ -1,0 +1,238 @@
+[class^="ri-"],
+[class*=" ri-"],
+.remix-icon {
+  font-family: 'remixicon';
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.ri-lg {
+  font-size: 1.3333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+.ri-settings-3-line:before {
+  content: "\f0e6";
+}
+.ri-add-line:before {
+  content: "\ea13";
+}
+.ri-subtract-line:before {
+  content: "\f1af";
+}
+.ri-arrow-up-s-line:before {
+  content: "\ea78";
+}
+.ri-arrow-down-s-line:before {
+  content: "\ea4e";
+}
+.ri-arrow-right-s-line:before {
+  content: "\ea6e";
+}
+.ri-search-2-line:before {
+  content: "\f0cd";
+}
+.ri-menu-line:before {
+  content: "\ef3e";
+}
+.ri-close-line:before {
+  content: "\eb99";
+}
+.ri-link-m:before {
+  content: "\eeaf";
+}
+.ri-code-s-slash-line:before {
+  content: "\ebad";
+}
+.ri-error-warning-line:before {
+  content: "\eca1";
+}
+.ri-information-line:before {
+  content: "\ee59";
+}
+.ri-alert-line:before {
+  content: "\ea21";
+}
+.ri-double-quotes-l:before {
+  content: "\ec51";
+}
+blockquote.warning,
+blockquote.error,
+blockquote.info,
+blockquote.neutral,
+blockquote.tip {
+  color: var(--black);
+  border-radius: 10px;
+  border-left: 0;
+}
+blockquote.warning {
+  background-color: #fff7ed;
+}
+blockquote.error {
+  background-color: #fdeeec;
+}
+blockquote.info {
+  background-color: #e9f5fe;
+}
+blockquote.neutral {
+  background-color: #e2e8ef;
+}
+blockquote.tip {
+  background-color: #e8f3ec;
+}
+blockquote h3.warning,
+blockquote h3.error,
+blockquote h3.info,
+blockquote h3.neutral,
+blockquote h3.tip,
+blockquote h4.warning,
+blockquote h4.error,
+blockquote h4.info,
+blockquote h4.neutral,
+blockquote h4.tip {
+  margin: 0 -1.2rem;
+  padding: 0.7rem 1.2rem 0.7rem 3.3rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+}
+blockquote h3.warning::before,
+blockquote h3.error::before,
+blockquote h3.info::before,
+blockquote h3.neutral::before,
+blockquote h3.tip::before,
+blockquote h4.warning::before,
+blockquote h4.error::before,
+blockquote h4.info::before,
+blockquote h4.neutral::before,
+blockquote h4.tip::before {
+  position: absolute;
+  left: 1rem;
+  font-size: 1.8rem;
+  font-family: 'remixicon';
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+blockquote h3.warning.warning,
+blockquote h3.error.warning,
+blockquote h3.info.warning,
+blockquote h3.neutral.warning,
+blockquote h3.tip.warning,
+blockquote h4.warning.warning,
+blockquote h4.error.warning,
+blockquote h4.info.warning,
+blockquote h4.neutral.warning,
+blockquote h4.tip.warning {
+  background-color: #f3ac55;
+  color: var(--black);
+}
+blockquote h3.warning.warning::before,
+blockquote h3.error.warning::before,
+blockquote h3.info.warning::before,
+blockquote h3.neutral.warning::before,
+blockquote h3.tip.warning::before,
+blockquote h4.warning.warning::before,
+blockquote h4.error.warning::before,
+blockquote h4.info.warning::before,
+blockquote h4.neutral.warning::before,
+blockquote h4.tip.warning::before {
+  color: var(--black);
+  content: "\eca1";
+}
+blockquote h3.warning.error,
+blockquote h3.error.error,
+blockquote h3.info.error,
+blockquote h3.neutral.error,
+blockquote h3.tip.error,
+blockquote h4.warning.error,
+blockquote h4.error.error,
+blockquote h4.info.error,
+blockquote h4.neutral.error,
+blockquote h4.tip.error {
+  background-color: #eb5949;
+}
+blockquote h3.warning.error::before,
+blockquote h3.error.error::before,
+blockquote h3.info.error::before,
+blockquote h3.neutral.error::before,
+blockquote h3.tip.error::before,
+blockquote h4.warning.error::before,
+blockquote h4.error.error::before,
+blockquote h4.info.error::before,
+blockquote h4.neutral.error::before,
+blockquote h4.tip.error::before {
+  content: "\eca1";
+}
+blockquote h3.warning.info,
+blockquote h3.error.info,
+blockquote h3.info.info,
+blockquote h3.neutral.info,
+blockquote h3.tip.info,
+blockquote h4.warning.info,
+blockquote h4.error.info,
+blockquote h4.info.info,
+blockquote h4.neutral.info,
+blockquote h4.tip.info {
+  background-color: #4496f7;
+}
+blockquote h3.warning.info::before,
+blockquote h3.error.info::before,
+blockquote h3.info.info::before,
+blockquote h3.neutral.info::before,
+blockquote h3.tip.info::before,
+blockquote h4.warning.info::before,
+blockquote h4.error.info::before,
+blockquote h4.info.info::before,
+blockquote h4.neutral.info::before,
+blockquote h4.tip.info::before {
+  content: "\ee59";
+}
+blockquote h3.warning.neutral,
+blockquote h3.error.neutral,
+blockquote h3.info.neutral,
+blockquote h3.neutral.neutral,
+blockquote h3.tip.neutral,
+blockquote h4.warning.neutral,
+blockquote h4.error.neutral,
+blockquote h4.info.neutral,
+blockquote h4.neutral.neutral,
+blockquote h4.tip.neutral {
+  background-color: #101828;
+}
+blockquote h3.warning.neutral::before,
+blockquote h3.error.neutral::before,
+blockquote h3.info.neutral::before,
+blockquote h3.neutral.neutral::before,
+blockquote h3.tip.neutral::before,
+blockquote h4.warning.neutral::before,
+blockquote h4.error.neutral::before,
+blockquote h4.info.neutral::before,
+blockquote h4.neutral.neutral::before,
+blockquote h4.tip.neutral::before {
+  content: "\ec51";
+}
+blockquote h3.warning.tip,
+blockquote h3.error.tip,
+blockquote h3.info.tip,
+blockquote h3.neutral.tip,
+blockquote h3.tip.tip,
+blockquote h4.warning.tip,
+blockquote h4.error.tip,
+blockquote h4.info.tip,
+blockquote h4.neutral.tip,
+blockquote h4.tip.tip {
+  background-color: #377e47;
+}
+blockquote h3.warning.tip::before,
+blockquote h3.error.tip::before,
+blockquote h3.info.tip::before,
+blockquote h3.neutral.tip::before,
+blockquote h3.tip.tip::before,
+blockquote h4.warning.tip::before,
+blockquote h4.error.tip::before,
+blockquote h4.info.tip::before,
+blockquote h4.neutral.tip::before,
+blockquote h4.tip.tip::before {
+  content: "\ee59";
+}

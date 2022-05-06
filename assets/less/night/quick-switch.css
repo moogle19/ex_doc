@@ -1,0 +1,12 @@
+body.dark #quick-switch-modal-body .ri-search-2-line {
+  color: var(--night-medium-gray);
+}
+body.dark #quick-switch-modal-body #quick-switch-input {
+  border-bottom-color: var(--night-medium-gray);
+}
+body.dark #quick-switch-modal-body #quick-switch-results {
+  margin: 0;
+}
+body.dark #quick-switch-modal-body #quick-switch-results .quick-switch-result {
+  border-bottom-color: var(--night-medium-gray);
+}

@@ -1,0 +1,15 @@
+body.dark {
+  background: var(--night-background);
+}
+body.dark #search .result-id a:visited,
+body.dark #search .result-id a:active,
+body.dark #search .result-id a:focus {
+  color: var(--night-text-headers);
+}
+body.dark #search .result-id a:hover {
+  color: var(--main);
+}
+body.dark blockquote {
+  border-left: 3px solid #44444c;
+  background-color: #2c2c31;
+}

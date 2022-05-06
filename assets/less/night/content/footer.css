@@ -1,0 +1,19 @@
+.footer {
+  color: var(--light-gray);
+}
+.footer .footer-button {
+  color: var(--light-gray);
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+.footer .footer-button:visited {
+  color: var(--light-gray);
+}
+.footer a {
+  color: var(--light-gray);
+  text-decoration: underline;
+  text-decoration-skip-ink: auto;
+}
+.footer a:visited {
+  color: var(--light-gray);
+}

@@ -1,0 +1,3 @@
+body.dark #search .loading div {
+  border-top-color: var(--medium-gray);
+}

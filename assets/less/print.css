@@ -1,0 +1,16 @@
+@media print {
+  .main {
+    display: block;
+  }
+  .sidebar,
+  .sidebar-button {
+    display: none;
+  }
+  .content {
+    padding-left: 0;
+    overflow: visible;
+  }
+  .summary-row {
+    page-break-inside: avoid;
+  }
+}
