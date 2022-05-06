@@ -1,14 +1,14 @@
 .sidebar {
-  font-family: @sansFontFamily;
+  font-family: var(--sans-font-family);
   font-size: 16px;
   line-height: 18px;
-  background: @darkGray;
-  color: @lightestGray;
+  background: var(--dark-gray);
+  color: var(--lightest-gray);
   overflow: hidden;
-  scrollbar-color: @mediumGray @darkGray;
+  scrollbar-color: var(--medium-gray) var(--dark-gray);
 
   .gradient {
-    background: linear-gradient(fade(@darkGray, 100%), fade(@darkGray, 0%));
+    background: linear-gradient(var(--dark-gray), var(--dark-gray-alpha-0));
     height: 20px;
     margin-top: -20px;
     pointer-events: none;
@@ -27,19 +27,19 @@
   }
 
   a {
-    color: @lightestGray;
+    color: var(--lightest-gray);
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 
     &:hover {
-      color: @white;
+      color: var(--white);
     }
   }
 
   .sidebar-header {
     margin: 12px;
     border-radius: 4px;
-    background-color: @bgMediumGray;
+    background-color: var(--bg-medium-gray);
     width: 276px;
   }
 
@@ -62,7 +62,7 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 30px;
-    color: @lightestGray;
+    color: var(--lightest-gray);
     margin: 0;
     padding: 0;
     max-width: 230px;
@@ -77,7 +77,7 @@
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
-    color: @lightGray;
+    color: var(--light-gray);
   }
 
   .sidebar-projectVersionsDropdown {
@@ -90,7 +90,7 @@
     -webkit-appearance: none;
     appearance: none;
     background-color: transparent;
-    color: @white;
+    color: var(--white);
     z-index: 2;
 
     option {
@@ -109,7 +109,7 @@
     content: '\25BC';
     z-index: 1;
     font-size: 8px;
-    color: @white;
+    color: var(--white);
   }
 
   .sidebar-projectVersionsDropdown::-ms-expand {
@@ -126,7 +126,7 @@
       text-transform: uppercase;
       font-weight: 300;
       font-size: 14px;
-      color: @lightGray;
+      color: var(--light-gray);
     }
 
     li {
@@ -138,8 +138,8 @@
       &.selected,
       &:hover a,
       &.selected a {
-        border-color: @main;
-        color: @lightestGray;
+        border-color: var(--main);
+        color: var(--lightest-gray);
       }
     }
   }
@@ -149,7 +149,7 @@
 
     &.selected .search-button,
     .search-button:hover {
-      color: @main;
+      color: var(--main);
       opacity: 1;
     }
 
@@ -160,7 +160,7 @@
 
     .search-button {
       font-size: 14px;
-      color: @lightestGray;
+      color: var(--lightest-gray);
       background-color: transparent;
       border: none;
       cursor: pointer;
@@ -175,7 +175,7 @@
 
     .search-close-button {
       font-size: 16px;
-      color: @lightestGray;
+      color: var(--lightest-gray);
       background-color: transparent;
       border: none;
       cursor: pointer;
@@ -200,10 +200,10 @@
     }
 
     .search-input {
-      background-color: @bgMediumGray;
+      background-color: var(--bg-medium-gray);
       border: none;
       border-radius: 4px;
-      color: @lightestGray;
+      color: var(--lightest-gray);
       margin-left: 12px;
       padding: 8px 6px 8px 38px;
       width: 276px;
@@ -285,7 +285,7 @@
         font-weight: bold;
         font-size: 0.9em;
         line-height: 1.8em;
-        color: @lightGray;
+        color: var(--light-gray);
         padding-left: 15px;
       }
 
@@ -295,13 +295,13 @@
         font-size: 0.8em;
         margin: 2.0em 0 0;
         line-height: 1.8em;
-        color: @lightGray;
+        color: var(--light-gray);
         padding-left: 15px;
       }
 
       a {
         padding: 3px 0 3px 15px;
-        color: @accentLightGray;
+        color: var(--accent-light-gray);
       }
 
       a.expand,
@@ -310,23 +310,23 @@
       }
 
       .current-section > a {
-        color: @main;
+        color: var(--main);
       }
 
     }
 
     &>li {
       &.current-page > a {
-        color: @main;
-        border-left: 3px solid @main;
+        color: var(--main);
+        border-left: 3px solid var(--main);
         padding-left: 12px;
         &:after {
-          color: @main;
+          color: var(--main);
         }
       }
 
       &.current-page {
-        color: @main;
+        color: var(--main);
       }
 
       &:last-child {
@@ -349,18 +349,18 @@
         line-height: 20px;
         padding: 2px 8px;
         margin-right: 0px;
-        color: @lightestGray;
+        color: var(--lightest-gray);
 
         &.current-hash {
-          color: @main;
+          color: var(--main);
           &:before {
             content: "\2022";
-            color: @main;
+            color: var(--main);
           }
         }
 
         &.current-hash > a {
-          color: @main;
+          color: var(--main);
           margin-left: -12px;
         }
 
@@ -374,11 +374,11 @@
           margin-right: 0;
 
           li {
-            border-left: 1px solid @accentMediumGray;
+            border-left: 1px solid var(--accent-medium-gray);
             padding: 0px 10px;
             margin-left: 8px;
             margin-right: 0;
-            color: @lightestGray;
+            color: var(--lightest-gray);
 
             a {
               padding-left: 0px;
@@ -389,12 +389,12 @@
             }
 
             &.current-hash {
-              color: @main;
-              border-color: @main;
+              color: var(--main);
+              border-color: var(--main);
             }
 
             &.current-hash > a {
-              color: @main;
+              color: var(--main);
               margin-left: 0;
             }
           }
@@ -408,18 +408,18 @@
   }
 
   ::-webkit-scrollbar-track {
-    background-color: @darkGray;
+    background-color: var(--dark-gray);
   }
 
   ::-webkit-scrollbar-thumb {
-    background: @mediumGray;
+    background: var(--medium-gray);
     border-radius: 10px;
-    border: 3px solid @darkGray;
+    border: 3px solid var(--dark-gray);
   }
 }
 
 .sidebar-button {
-  color: @gray;
+  color: var(--gray);
   cursor: pointer;
   background-color: transparent;
   border: none;
@@ -427,7 +427,7 @@
   font-size: 16px;
 
   &:hover {
-    color: @white;
+    color: var(--white);
   }
 
   &:active,

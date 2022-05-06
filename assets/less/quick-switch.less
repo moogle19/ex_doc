@@ -7,19 +7,19 @@
     left: 0;
     top: 0;
     padding: 8px 2px;
-    color: @mediumGray;
+    color: var(--medium-gray);
   }
 
   #quick-switch-input {
     width: 100%;
     padding: 8px 6px 6px 26px;
     border: none;
-    border-bottom: 1px solid @mediumGray;
+    border-bottom: 1px solid var(--medium-gray);
     box-sizing: border-box;
     transition: all .12s ease-out;
 
     &:focus {
-      border-bottom: 1px solid @darkGray;
+      border-bottom: 1px solid var(--dark-gray);
       outline: none;
     }
   }
@@ -29,7 +29,7 @@
 
     .quick-switch-result {
       padding: 2px 5px;
-      border-bottom: 1px dotted @mediumGray;
+      border-bottom: 1px dotted var(--medium-gray);
       transition: all .12s ease-out;
 
       &:last-child {
@@ -42,8 +42,8 @@
 
       &:hover,
       &.selected {
-        border-left: 4px solid @main;
-        background: @codeBackground;
+        border-left: 4px solid var(--main);
+        background: var(--code-background);
       }
     }
   }

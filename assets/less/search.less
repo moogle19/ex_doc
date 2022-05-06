@@ -18,10 +18,10 @@
     width: 51px;
     height: 51px;
     margin: 6px;
-    border: 6px solid @mediumGray;
+    border: 6px solid var(--medium-gray);
     border-radius: 50%;
     animation: loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-    border-color: @mediumGray transparent transparent transparent;
+    border-color: var(--medium-gray) transparent transparent transparent;
   }
   .loading div:nth-child(1) {
     animation-delay: -0.45s;
@@ -56,11 +56,11 @@
       &:visited,
       &:active,
       &:focus {
-        color: @black;
+        color: var(--black);
       }
 
       &:hover {
-        color: @main;
+        color: var(--main);
       }
     }
   }
@@ -68,7 +68,7 @@
   .result-id em,
   .result-elem em {
     font-style: normal;
-    color: @main;
+    color: var(--main);
   }
   .result-id small {
     font-weight: normal;

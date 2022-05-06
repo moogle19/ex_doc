@@ -1,6 +1,6 @@
 a.no-underline,
 pre a {
-  color: darken(@main, 10%);
+  color: var(--main-darken-10);
   text-shadow: none;
   text-decoration: none;
   background-image: none;
@@ -9,28 +9,28 @@ pre a {
   &:active,
   &:focus,
   &:hover {
-    color: darken(@main, 20%);
+    color: var(--main-darken-20);
     text-decoration: none;
   }
 }
 
 code {
-  background-color: @codeBackground;
+  background-color: var(--code-background);
   vertical-align: baseline;
   border-radius: 2px;
   padding: .1em .2em;
-  border: 1px solid darken(@codeBackground, 10%);
+  border: 1px solid var(--code-background-darken-10);
   text-transform: none;
 }
 
 pre {
-  margin: @baseLineHeight 0;
+  margin: var(--base-line-height) 0;
 
   code {
     display: block;
     overflow-x: auto;
     white-space: inherit;
     padding: 0.5em 1em;
-    background-color: @codeBackground;
+    background-color: var(--code-background);
   }
 }

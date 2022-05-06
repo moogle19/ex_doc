@@ -1,13 +1,13 @@
 blockquote {
   &.warning, &.error, &.info, &.neutral, &.tip {
     a {
-      color: @black;
-      .linkUnderlines(@black);
+      color: var(--black);
+      .linkUnderlines(var(--black));
     }
 
     code {
-      background-color: @codeBackground;
-      border: 1px solid darken(@codeBackground, 10%);
+      background-color: var(--code-background);
+      border: 1px solid var(--code-background-darken-10);
     }
   }
 
@@ -42,11 +42,11 @@ blockquote {
   h4.neutral,
   h4.tip {
     &::before {
-      color: @white;
+      color: var(--white);
     }
 
     &.warning {
-      color: @white;
+      color: var(--white);
       background-color: #7c4619;
     }
 

@@ -3,20 +3,20 @@ body.dark {
     background-color: rgba(0, 0, 0, 0.75);
 
     .modal-contents {
-      background-color: @nightBackground;
-      color: @nightTextBody;
+      background-color: var(--night-background);
+      color: var(--night-text-body);
 
       dl.shortcut-row {
-        border-bottom: 1px solid @nightCodeBorder;
+        border-bottom: 1px solid var(--night-code-border);
         &:last-of-type {
           border-bottom-style: none;
         }
       }
 
       kbd > kbd {
-        color: @nightTextBody;
-        background-color: @nightCodeBackground;
-        border: 1px solid @nightCodeBorder;
+        color: var(--night-text-body);
+        background-color: var(--night-code-background);
+        border: 1px solid var(--night-code-border);
       }
     }
   }

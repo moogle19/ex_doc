@@ -4,13 +4,13 @@ h3,
 h4,
 h5,
 h6 {
-  color: @nightTextHeaders;
+  color: var(--night-text-headers);
 }
 
 a {
-  color: @nightTextHeaders;
+  color: var(--night-text-headers);
   text-decoration: none;
-  .linkUnderlines(@nightTextHeaders);
+  .linkUnderlines(var(--night-text-headers));
 }
 
 a.view-source {
@@ -18,7 +18,7 @@ a.view-source {
   text-decoration: none;
 
   &:hover {
-    color: @white;
+    color: var(--white);
   }
 }
 
@@ -26,7 +26,7 @@ a.view-source {
   color: #939393;
 
   &:hover {
-    color: @white;
+    color: var(--white);
   }
 }
 

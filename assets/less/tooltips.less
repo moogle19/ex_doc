@@ -1,5 +1,5 @@
 #tooltip {
-  box-shadow: 0 0 10px fade(@black, 10%);
+  box-shadow: 0 0 10px var(--black-alpha-10);
   max-height: 300px;
   max-width: 500px;
   padding: 0;
@@ -30,7 +30,7 @@
   // ======
 
   .tooltip-body {
-    border: 1px solid fade(@mediumGray, 30%);
+    border: 1px solid var(--medium-gray-alpha-10);
 
     .signature {
       min-width: 320px;
@@ -44,7 +44,7 @@
     }
 
     .docstring {
-      background-color: @white;
+      background-color: var(--white);
       padding: 1.2em;
       margin: 0;
       width: 498px; // Taking 2 * 1px of border into account
@@ -59,7 +59,7 @@
     .version-info {
       float: right;
       line-height: 1.6rem;
-      font-family: @monoFontFamily;
+      font-family: var(--mono-font-family);
       font-size: 0.9rem;
       font-weight: normal;
       margin-bottom: -6px;

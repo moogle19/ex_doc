@@ -4,7 +4,7 @@ blockquote {
   &.info,
   &.neutral,
   &.tip {
-    color: @black;
+    color: var(--black);
     border-radius: 10px;
     border-left: 0;
   }
@@ -55,10 +55,10 @@ blockquote {
 
     &.warning {
       background-color: #f3ac55;
-      color: @black;
+      color: var(--black);
 
       &::before {
-        color: @black;
+        color: var(--black);
         content: @icon-error-warning;
       }
     }

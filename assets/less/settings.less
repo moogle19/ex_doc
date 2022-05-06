@@ -18,23 +18,23 @@
 
     &:focus {
       outline: none;
-      border-color: @main;
+      border-color: var(--main);
     }
 
     &::-webkit-input-placeholder {
-      color: @lightGray;
+      color: var(--light-gray);
     }
 
     &::-moz-placeholder {
-      color: @lightGray;
+      color: var(--light-gray);
     }
 
     &:-moz-placeholder {
-      color: @lightGray;
+      color: var(--light-gray);
     }
 
     &:-ms-input-placeholder {
-      color: @lightGray;
+      color: var(--light-gray);
     }
   }
 
@@ -49,7 +49,7 @@
   }
 
   .switch-button-container > div > span {
-    color: @accentMediumGray;
+    color: var(--accent-medium-gray);
     font-size: 18px;
   }
 
@@ -97,16 +97,16 @@
 
   .switch-button__checkbox:checked {
     background-color: white;
-    border-color: @main;
+    border-color: var(--main);
     transform: translateX(100%);
   }
 
   .switch-button__checkbox:checked + .switch-button__bg {
-    background-color: @main;
+    background-color: var(--main);
   }
 
   .keyboard-shortcuts {
-    color: @accentMediumGray;
+    color: var(--accent-medium-gray);
     font-size: 18px;
   }
 

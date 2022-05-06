@@ -4,11 +4,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: @sansFontFamily;
+  font-family: var(--sans-font-family);
   font-weight: 700;
   line-height: 1.5em;
   word-wrap: break-word;
-  color: @darkGrayTextHeaders;
+  color: var(--dark-gray-text-headers);
 }
 
 h1 {
@@ -46,7 +46,7 @@ h3 {
 }
 
 a {
-  .linkUnderlines(@black);
+  .linkUnderlines(var(--black));
 }
 
 a.no-underline {
@@ -61,7 +61,7 @@ a.view-source {
   transition: color 0.3s ease-in-out;
 
   &:hover {
-    color: @darkGray;
+    color: var(--dark-gray);
   }
 }
 
@@ -76,7 +76,7 @@ a.view-source {
   cursor: pointer;
 
   &:hover {
-    color: @darkGray;
+    color: var(--dark-gray);
   }
 }
 
@@ -100,7 +100,7 @@ h1 .note {
 }
 
 blockquote {
-  border-left: 3px solid @gray;
+  border-left: 3px solid var(--gray);
   position: relative;
   margin: 1.5625em 0;
   padding: 0 1.2rem;
@@ -120,14 +120,14 @@ table {
 
 th {
   text-align: left;
-  font-family: @sansFontFamily;
+  font-family: var(--sans-font-family);
   text-transform: uppercase;
   font-weight: 700;
   padding-bottom: .5em;
 }
 
 tr {
-  border-bottom: 1px solid @lightestGray;
+  border-bottom: 1px solid var(--lightest-gray);
   vertical-align: bottom;
   height: 2.5em;
 }
@@ -184,7 +184,7 @@ img {
 }
 
 code {
-  font-family: @monoFontFamily;
+  font-family: var(--mono-font-family);
   font-style: normal;
   line-height: 24px;
   font-weight: 400;

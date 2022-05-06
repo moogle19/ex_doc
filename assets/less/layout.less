@@ -6,10 +6,10 @@ body {
 }
 
 body {
-  background-color: @white;
-  color: @black;
+  background-color: var(--white);
+  color: var(--black);
   font-size: 16px;
-  font-family: @sansFontFamily;
+  font-family: var(--sans-font-family);
   line-height: 1.6875em;
 }
 
@@ -97,7 +97,7 @@ body.sidebar-closing {
 
 body.sidebar-closed {
   .sidebar-button {
-    color: @black;
+    color: var(--black);
     transition: transform 0.3s ease-in-out;
     transform: translateY(-8px);
   }
