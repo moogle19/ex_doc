@@ -12,7 +12,7 @@
     "lint": "npx eslint \"./js/**/*.js\"",
     "lint:fix": "npx eslint --fix \"./js/**/*.js\"",
     "test": "npx karma start ./karma.conf.js --single-run",
-    "build": "webpack --log-level=debug --config ./webpack.js"
+    "build": "node build.js"
   },
   "repository": {
     "type": "git",
@@ -64,5 +64,8 @@
     "webpack-bundle-analyzer": "^3.7.0",
     "webpack-command": "^0.4.2",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "@lighthousesystems/esbuild-plugin-handlebars": "^1.0.0"
   }
 }
