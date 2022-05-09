@@ -24,7 +24,7 @@ esbuild.build({
                 isNonEmptyArray: "../template-helpers/isNonEmptyArray.js",
                 nestingChanged: "../template-helpers/nestingChanged.js",
                 showSections: "../template-helpers/showSections.js",
-                showSummary: "../template-helpers/showummary.js",
+                showSummary: "../template-helpers/showSummary.js",
             },
             precompileOptions: {}
         })
